@@ -1,0 +1,227 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 1100px;
+    margin: auto;
+    
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float:left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color:black;
+    text-decoration: none;
+}
+
+#searchbox{
+    float: right;
+    background: #a3a3a3;
+    width: 300px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.text{
+    float:left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #636363;
+    
+
+}
+
+.submit{
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #454545;
+    font-size: 15px;
+    margin-left: 3px;
+    height: 29px;
+}
+
+.clear{
+    clear: both;
+
+}
+
+#menu{
+    height: 70px;
+    padding: 7px 0;
+    background: linear-gradient(#02ad30, #015e1a);
+    background: -moz-linear-gradient(#02ad30, #015e1a);
+    background: -o-linear-gradient(#02ad30, #015e1a);
+    background: -webkit-linear-gradient(#02ad30, #015e1a);
+    background: -ms-linear-gradient(#02ad30, #015e1a);
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    text-align: center;
+    float: left;
+    padding: 0 10px;
+    padding: 0 70px;
+    height: 30px;
+    border-right: 1px solid white;
+    line-height: 30px;
+    
+
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: white;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+#form{
+    padding-left: 20px;
+    font-family: verdana, sans-serif;
+    
+    
+}
+
+#introduction{
+    background: linear-gradient(#b5b5b5, #dedede);
+    background: -webkit-linear-gradient(#b5b5b5, #dedede);
+    background: -o-linear-gradient(#b5b5b5, #dedede);
+    background: -moz-linear-gradient(#b5b5b5, #dedede);
+        background: -ms-linear-gradient(#b5b5b5, #dedede);
+        padding: 15px;
+    margin: 10px 0;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: black;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #383838;
+    text-align: justify;
+}
+
+.sidebar{
+  height: 500px;
+    width: 450px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px 40px;
+    
+    
+}
+
+.sidebar h3{
+    color: #027d22;
+    font-size: 30px;
+    
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    list-style: "\2192";
+    color: #027d22;
+}
+
+#rightsidebar ul li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    list-style: "\21AA";
+    padding-left: 30px;
+    color: #027d22;
+    
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+     font-size: 23px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#02ad30, #015e1a);
+    background: -moz-linear-gradient(#02ad30, #015e1a);
+    background: -0-linear-gradient(#02ad30, #015e1a);
+    background: -webkit-linear-gradient(#02ad30, #015e1a);
+        background: -ms-linear-gradient(#02ad30, #015e1a);
+border: 1px solid grey;
+    border-radius: 5px;
+color: white;
+    padding: 10px 30px;
+    margin-top: 15px;
+
+}
